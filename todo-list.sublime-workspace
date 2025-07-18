@@ -1,0 +1,689 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pages",
+				"pages_todo(use super::controllers::pages_todo)"
+			],
+			[
+				"HttpRe",
+				"HttpResponse(use actix_web::HttpResponse)"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"Re",
+				"Responder"
+			],
+			[
+				"fi",
+				"fibonacci_dynamic"
+			],
+			[
+				"outp",
+				"output_file"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "todo-list.sublime-project",
+			"settings":
+			{
+				"buffer_size": 280,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"set ",
+				"Set Syntax: Tera"
+			],
+			[
+				"set htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syn",
+				"Set Syntax: Tera"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"Rust En",
+				"Preferences: Rust Enhanced Settings"
+			],
+			[
+				"open",
+				"Debugger: Open"
+			],
+			[
+				"debug",
+				"Debugger: Open"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"file new",
+				"File: New File"
+			],
+			[
+				"set syn rust",
+				"Set Syntax: Rust Enhanced"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"new fi",
+				"File: New File"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"formatter",
+				"Preferences: Formatter Settings"
+			],
+			[
+				"sublim",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"rust -an",
+				"LSP-rust-analyzer: Reload Project"
+			],
+			[
+				"beauty",
+				"Formatter: Beautify with Rustfmt"
+			],
+			[
+				"lsp",
+				"LSP: Format File"
+			],
+			[
+				"sublimelinter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"rust se",
+				"Preferences: LSP-rust-analyzer Settings"
+			],
+			[
+				"sublimelinter rust",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"formmat",
+				"Formatter: Auto Format File"
+			],
+			[
+				"rust",
+				"Formatter: Beautify with Rustfmt"
+			],
+			[
+				"restar",
+				"LSP: Restart Server"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"set syntax rust",
+				"Set Syntax: Rust"
+			],
+			[
+				"rust settin",
+				"Preferences: LSP-rust-analyzer Settings"
+			],
+			[
+				"sublimelinter settin",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"formatter set",
+				"Preferences: Formatter Settings"
+			],
+			[
+				"sublimeLinter sett",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"LSP",
+				"Preferences: LSP Settings"
+			],
+			[
+				"CTags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"format",
+				"LSP: Format File"
+			],
+			[
+				"LSP Sett",
+				"Preferences: LSP Settings"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 197.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/stevenperez/Documents/Steven/todolist-rust",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/templates"
+	],
+	"file_history":
+	[
+		"/Users/stevenperez/Documents/Steven/todolist-rust/templates/components/menu.html",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/templates/todo/new.html",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/framework/controllers/task.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/framework/controllers/mod.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/framework/server.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/framework/controllers/todo.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/templates/task/list.html",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/.gitignore",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/framework/controllers/pages_task.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/templates/index.html",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/framework/controllers/pages_todo.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/domain/mod.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/domain/todo.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/templates/layout.html",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/Cargo.toml",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/todo-list.sublime-project",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/main.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/framework/mod.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/framework/controllers/tasks_page.rs",
+		"/Users/stevenperez/Documents/Steven/todolist-rust/src/framework/controllers/tasks.rs",
+		"/Users/stevenperez/Library/CloudStorage/OneDrive-Personal/Steven Docs/Progra/Rust/RUST-LINUX-FOUNDATION/practice/fibonacci.rs",
+		"/Users/stevenperez/Library/CloudStorage/OneDrive-Personal/Steven Docs/Progra/Rust/RUST-LINUX-FOUNDATION/practice/my_stdout.rs",
+		"/Users/stevenperez/Library/CloudStorage/OneDrive-Personal/Steven Docs/Progra/Rust/RUST-LINUX-FOUNDATION/practice/input.txt",
+		"/Users/stevenperez/Library/CloudStorage/OneDrive-Personal/Steven Docs/Progra/Rust/RUST-LINUX-FOUNDATION/practice/hello.rs",
+		"/Users/stevenperez/Library/CloudStorage/OneDrive-Personal/Steven Docs/Progra/Rust/RUST-LINUX-FOUNDATION/practice/factorial.rs",
+		"/Users/stevenperez/Library/CloudStorage/OneDrive-Personal/Steven Docs/Progra/Rust/RUST-LINUX-FOUNDATION/practice/src/main.rs",
+		"/Users/stevenperez/Library/CloudStorage/OneDrive-Personal/Steven Docs/Progra/Rust/RUST-LINUX-FOUNDATION/practice/src/factorial.rs",
+		"/Users/stevenperez/Library/Application Support/Sublime Text/Packages/Formatter/Formatter.sublime-settings",
+		"/Users/stevenperez/Library/Application Support/Sublime Text/Packages/User/Formatter.sublime-settings",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/README.md",
+		"/Users/stevenperez/Library/Application Support/Sublime Text/Packages/User/StatusBarTime.sublime-settings",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/.env",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/database/seeders/TimezoneSeeder.php",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/.env.example",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/database/seeders/SubscriptionsSeeder.php",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/database/migrations/2025_06_24_060457_create_users_table.php",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/app/Models/User.php",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/routes/web.php",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/app/Http/Controllers/RegisterUserController.php",
+		"/Users/stevenperez/Documents/Steven/acme-studios-lt/app/Shared/Constants/TimezonesConstants.php",
+		"/Users/stevenperez/Library/CloudStorage/OneDrive-Personal/Steven Docs/acme-config-bk/app_settings_timezone_202506211946.csv",
+		"/Users/stevenperez/Desktop/acme-studios/studios/forms.py",
+		"/Users/stevenperez/Desktop/acme-studios/utils/datetime_fns.py"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pages_todo",
+			"pages_task",
+			"pages_",
+			"content",
+			"mx-6",
+			"2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "todo-list.sublime-project",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"AutoSetSyntax/is_transient": false,
+							"auto_complete_triggers":
+							[
+								{
+									"selector": "meta.mapping.key punctuation.definition.string.begin - meta.setting-value.sublime-settings meta.mapping.value"
+								},
+								{
+									"selector": "- comment - punctuation.separator - punctuation.definition.string.end - constant.character.escape - invalid.illegal - punctuation.section.mapping - punctuation.section.sequence",
+									"server": "LSP-json"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										279,
+										280
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_helper.scan":
+							{
+								"allow_scanning": false,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?xi)\n(?:\n    \\b(?<![-#&$])(?:\n        color\\((?!\\s*-)|(?:hsla?|(?:ok)?(?:lch|lab)|hwb|rgba?)\\(\n) |\n\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])\\#)\n",
+								"current_ext": ".sublime-project",
+								"current_syntax": "PackageDev/Package/Sublime Text Project/Sublime Text Project",
+								"enabled": true,
+								"last_updated": 1752807851.73,
+								"scanning": "-comment"
+							},
+							"lsp_active": true,
+							"lsp_uri": "file:///Users/stevenperez/Documents/Steven/todolist-rust/todo-list.sublime-project",
+							"show_definitions": false,
+							"syntax": "Packages/PackageDev/Package/Sublime Text Project/Sublime Text Project.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.AutoSetSyntax":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.Debugger":
+	{
+		"height": 389.0,
+		"history":
+		[
+		]
+	},
+	"output.Debugger Console":
+	{
+		"height": 389.0,
+		"history":
+		[
+		]
+	},
+	"output.Debugger Terminal":
+	{
+		"height": 389.0,
+		"history":
+		[
+		]
+	},
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 598.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "todo-list.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"menu",
+				"templates/components/menu.html"
+			],
+			[
+				"server",
+				"src/framework/server.rs"
+			],
+			[
+				"pages",
+				"src/framework/controllers/pages_task.rs"
+			],
+			[
+				"pages_to",
+				"src/framework/controllers/pages_todo.rs"
+			],
+			[
+				"controllersmod",
+				"src/framework/controllers/mod.rs"
+			],
+			[
+				"cargo",
+				"Cargo.toml"
+			],
+			[
+				"index.",
+				"templates/index.html"
+			],
+			[
+				"inp",
+				"input.txt"
+			],
+			[
+				"fac",
+				"factorial.rs"
+			],
+			[
+				"README",
+				"README.md"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"User",
+				"app/Models/User.php"
+			],
+			[
+				"create_user_",
+				"database/migrations/2025_06_24_060457_create_users_table.php"
+			],
+			[
+				"TimezoneCons",
+				"app/Shared/Constants/TimezonesConstants.php"
+			],
+			[
+				"Timezone",
+				"database/seeders/TimezoneSeeder.php"
+			],
+			[
+				"Timezones",
+				"database/seeders/TimezoneSeeder.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

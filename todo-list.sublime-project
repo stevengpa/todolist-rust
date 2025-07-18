@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"debugger_configurations": [
+		{
+			"name": "Rust Debugger",
+			"type": "lldb",
+			"request": "launch",
+			"program": "${workspaceFolder}/target/debug/todolist-rust",
+			"cwd": "${workspaceFolder}",
+			"terminal": "integrated",
+		}
+	]
+}
