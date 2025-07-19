@@ -11,6 +11,7 @@ pub async fn server(host: &str, port: u16) -> std::io::Result<()> {
         App::new()
             .app_data(web::Data::new(tera.clone()))
             .service(web::resource("/").route(web::get().to(task::list)))
+            .service(web::resource("/todo").route(web::post().to(todo::store)))
             .service(web::resource("/todo/new").route(web::get().to(todo::new)))
             .default_service(web::route().to(not_found::index))
     })
