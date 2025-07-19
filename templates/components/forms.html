@@ -1,0 +1,37 @@
+{% macro input_form(id, label, type, value, class, attributes) %}
+	<div class="w-full {{class}}">
+	  <label for="{{id}}" class="block text-sm/6 font-medium text-gray-900">{{label}}</label>
+	  <div class="mt-2">
+	    <input id="{{id}}" {{attributes}} type="{{type}}" name="{{id}}" autocomplete="given-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" value="{{value}}" />
+	  </div>
+	</div>
+{% endmacro input_form %}
+
+{% macro input_textarea_form(id, label, value, class, attributes) %}
+	<div class="w-full {{class}}">
+	  <label for="{{id}}" class="block text-sm/6 font-medium text-gray-900">{{label}}</label>
+	  <div class="mt-2">
+	    <textarea id="{{id}}" {{attributes}} name="{{id}}" autocomplete="given-name" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">{{value}}</textarea>
+	  </div>
+	</div>
+{% endmacro input_textarea_form %}
+
+{% macro button_form(type, text, style, class, attributes) %}
+	{% if style == "primary" %}
+		<button type="{{type}}" {{attributes}} class="block w-full px-4 py-2 bg-indigo-200 rounded cursor-pointer ease-in ease-out duration-300 hover:bg-indigo-500 hover:text-white {{class}}">{{text}}</button>
+	{% endif %}
+
+	{% if style == "secondary" %}
+		<button type="{{type}}" {{attributes}} class="block w-full px-4 py-2 bg-gray-100 rounded cursor-pointer ease-in ease-out duration-300 hover:bg-gray-500 hover:text-white {{class}}">{{text}}</button>
+	{% endif %}
+{% endmacro button_form %}
+
+{% macro button_link_form(href, text, style, class, attributes) %}
+	{% if style == "primary" %}
+		<a href="{{href}}" {{attributes}} class="block text-center w-full px-4 py-2 bg-indigo-200 rounded cursor-pointer ease-in ease-out duration-300 hover:bg-indigo-500 hover:text-white">{{text}}</a>
+	{% endif %}
+
+	{% if style == "secondary" %}
+		<a href="{{href}}" {{attributes}} class="block text-center w-full px-4 py-2 bg-gray-100 rounded cursor-pointer ease-in ease-out duration-300 hover:bg-gray-500 hover:text-white {{class}}">{{text}}</a>
+	{% endif %}
+{% endmacro button_link_form %}
