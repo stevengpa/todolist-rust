@@ -168,7 +168,7 @@
 	"buffers":
 	[
 		{
-			"file": "src/framework/controllers/todo.rs",
+			"file": "todo.rs",
 			"redo_stack":
 			[
 				[
@@ -2657,7 +2657,7 @@
 			]
 		},
 		{
-			"file": "todo-list.sublime-project",
+			"file": "/home/road/Documents/Steven/todolist-rust/todo-list.sublime-project",
 			"settings":
 			{
 				"buffer_size": 280,
@@ -2669,7 +2669,7 @@
 			]
 		},
 		{
-			"file": "src/framework/mod.rs",
+			"file": "/home/road/Documents/Steven/todolist-rust/src/framework/mod.rs",
 			"settings":
 			{
 				"buffer_size": 37,
@@ -2677,7 +2677,7 @@
 			}
 		},
 		{
-			"file": "src/main.rs",
+			"file": "/home/road/Documents/Steven/todolist-rust/src/main.rs",
 			"settings":
 			{
 				"buffer_size": 260,
@@ -2719,7 +2719,7 @@
 			]
 		},
 		{
-			"file": "src/domain/todo/todo.rs",
+			"file": "/home/road/Documents/Steven/todolist-rust/src/domain/todo/todo.rs",
 			"settings":
 			{
 				"buffer_size": 247,
@@ -3545,7 +3545,7 @@
 			]
 		},
 		{
-			"file": "src/domain/mod.rs",
+			"file": "/home/road/Documents/Steven/todolist-rust/src/domain/mod.rs",
 			"settings":
 			{
 				"buffer_size": 13,
@@ -3738,7 +3738,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/framework/controllers/todo.rs",
+					"file": "todo.rs",
 					"semi_transient": false,
 					"settings":
 					{
@@ -3859,7 +3859,7 @@
 				},
 				{
 					"buffer": 1,
-					"file": "todo-list.sublime-project",
+					"file": "/home/road/Documents/Steven/todolist-rust/todo-list.sublime-project",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
@@ -3993,7 +3993,7 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/framework/mod.rs",
+					"file": "/home/road/Documents/Steven/todolist-rust/src/framework/mod.rs",
 					"semi_transient": false,
 					"settings":
 					{
@@ -4097,7 +4097,7 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/main.rs",
+					"file": "/home/road/Documents/Steven/todolist-rust/src/main.rs",
 					"semi_transient": false,
 					"settings":
 					{
@@ -4203,7 +4203,7 @@
 				},
 				{
 					"buffer": 4,
-					"file": "src/domain/todo/todo.rs",
+					"file": "/home/road/Documents/Steven/todolist-rust/src/domain/todo/todo.rs",
 					"semi_transient": false,
 					"settings":
 					{
@@ -4324,7 +4324,7 @@
 				},
 				{
 					"buffer": 5,
-					"file": "src/domain/mod.rs",
+					"file": "/home/road/Documents/Steven/todolist-rust/src/domain/mod.rs",
 					"semi_transient": false,
 					"settings":
 					{
@@ -4496,7 +4496,7 @@
 		]
 	},
 	"pinned_build_system": "",
-	"project": "todo-list.sublime-project",
+	"project": "untitled.sublime-project",
 	"replace":
 	{
 		"height": 74.0

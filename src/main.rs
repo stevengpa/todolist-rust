@@ -1,4 +1,5 @@
 mod framework;
+mod domain;
 
 use framework::server::server;
 
