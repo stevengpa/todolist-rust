@@ -1,6 +1,7 @@
 use crate::framework::controllers::{task, todo, not_found};
 use actix_web::{App, HttpServer, web, middleware::Logger};
 use tera::Tera;
+use crate::framework::config::Config;
 
 fn init_tera() -> Tera {
     let mut tera = Tera::new("templates/**/**").unwrap();
@@ -9,7 +10,7 @@ fn init_tera() -> Tera {
     tera
 }
 
-pub async fn server(host: &str, port: u16) -> std::io::Result<()> {
+pub async fn server(envs: Config) -> std::io::Result<()> {
     let tera = init_tera();
 
     HttpServer::new(move || {
@@ -27,7 +28,7 @@ pub async fn server(host: &str, port: u16) -> std::io::Result<()> {
             )
             .default_service(web::route().to(not_found::index))
     })
-    .bind((host, port))?
+    .bind((envs.app_host.to_string(), envs.app_port))?
     .run()
     .await
 }
