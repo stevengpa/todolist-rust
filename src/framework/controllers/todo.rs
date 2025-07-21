@@ -24,16 +24,16 @@ pub async fn store(tmpl: web::Data<Tera>, form: web::Form<todo::NewToDoRequest>)
                 .finish())
         }
         Err(errors) => {
+            let errors_value = serde_json::to_value(&errors).unwrap();
             let errors_json = serde_json::to_string(&errors).unwrap();
-            
+
             let mut ctx = Context::new();
-            ctx.insert("errors", &errors);
+            ctx.insert("errors", &errors_value);
             ctx.insert("errors_json", &errors_json);
-            ctx.insert("form", &form);
+            ctx.insert("form_values", &form);
             ctx.insert("title", "New To Do - Rust");
             ctx.insert("active_tab", "add_task");
             
-            // println!("{:?}", errors.field_errors().get("description").unwrap()[0].message.clone().unwrap());
             let rendered = tmpl.render("todo/new.html", &ctx).unwrap();
 
             Ok(

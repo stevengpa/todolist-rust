@@ -8,8 +8,27 @@
 	</div>
 	<div class="pt-8 self-center">
 		<form class="w-96" action="/todo/new" method="POST">
-			{{ forms::input_form(id="task", label="Task", type="text", value="", class="", attributes="required") }}
-			{{ forms::input_textarea_form(id="description", label="Description", value="", class="pt-4", attributes="required", errors=errors) }}
+			{# Task #}
+			{{ forms::input_form(
+					id="task",
+					label="Task",
+					type="text",
+					value=form_values.task | default(value=""),
+					class="",
+					attributes="required minlength=2 maxlength=100",
+				)
+			}}
+
+			{# Description #}
+			{{ forms::input_textarea_form(
+					id="description",
+					label="Description",
+					value=form_values.description | default(value=""),
+					class="pt-4",
+					attributes="required minlength=2 maxlength=200",
+					errors=errors | default(value=[]),
+				)
+			}}
 
 			<div class="flex justify-between gap-4 mt-4">
 				{{ forms::button_link_form(href="/", text="Cancel", style="secondary", class="", attributes="") }}

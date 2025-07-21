@@ -1,0 +1,12 @@
+{% macro form_field_error(id, errors) %}
+ 	<div class="pt-1">
+  	{% if errors is defined and errors[id] is defined and errors[id] | length > 0 %}
+  		{% set field_error_message = errors[id][0].message %}
+	  	{% if field_error_message %}
+	  		<p class="text-red-600 text-sm">
+	  			{{ field_error_message | default(value="Invalid") }}
+	  		</p>
+	  	{% endif %}
+  	{% endif %}
+  </div>
+{% endmacro form_field_error %}
